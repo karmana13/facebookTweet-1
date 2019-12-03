@@ -89,7 +89,7 @@ function shareTweet(){ //function to share tweet
 	
 };
 
-function shareDirectTweet(){ //function to share tweet directly
+function shareDirectTweet(){ //method to share tweet directly
 	checkLoginState(); //check if user is logged in
 	//  ui() is used to trigger Facebook created UI share dialog to share tweet directly in the form message
 	FB.ui({method: 'share',
