@@ -1,3 +1,6 @@
+<%--
+This page displays list of all tweets
+--%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <%@ page import="com.google.appengine.api.datastore.DatastoreService" %>
@@ -15,7 +18,7 @@
 <head>
  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
  <link rel="stylesheet" href="/css/tweet.css">
- 
+ <!--Code for client side google analytics tracking -->
  <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153765665-1"></script>
 <script>
